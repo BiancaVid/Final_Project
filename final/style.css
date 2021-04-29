@@ -1,0 +1,16 @@
+body {
+  width: 320px;
+  height: 200px;
+}
+
+#cont {
+    display: flex;
+    justify-content: center;
+    font: 1em arial;
+    color: rgba(50, 82, 50, 1.0);
+}
+#area:focus {
+    color: rgba(50, 82, 50, 1.0);
+    border: 2px solid #96c56f;
+    box-shadow: 0px 1px 1px #888888;
+}

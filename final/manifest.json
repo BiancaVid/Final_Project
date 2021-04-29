@@ -1,0 +1,13 @@
+{
+  "name": "Post(it)",
+  "description": "Don't bother changing pages.",
+  "version": "1.0",
+  "manifest_version": 3,
+  
+    "action": {
+        "default_popup": "popup.html" 
+    },
+
+  // Store note
+  "permissions": ["storage"]
+}
